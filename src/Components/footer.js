@@ -12,7 +12,7 @@ const Footer = () => {
                      </div>
                     <div className="footer-search-holder">
                         <div className="footer-search-button">  <input type="text" placeholder="Finde a Course"></input><button><i class="fa fa-search" /></button></div>
-                        <div className="footer-search-button"><input type="text" placeholder="Finde a Course"></input><button><i class="fa fa-search" /></button></div>
+                        <div className="footer-search-button"><input type="text" placeholder="All Courses"></input><button><i class="fa fa-search" /></button></div>
                     </div>
 
 
@@ -53,71 +53,87 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-latest"> <h3>Latest Courses</h3>
-                        <ul>
+                            <ul>
                                 <li>
                                     <a href="javascript:void(0)">
                                         <div className="course-thumb"></div>
                                         <div className="course-details">
-                                         <ul><li>BA (HONOURS) Social Work</li>
-                                         <li className="fotter-lates-time">  <span class="glyphicon glyphicon-time"></span><span className="fotter-lates-time">Starts in 10 Sept 2015</span></li>
-                                         <li className="fotter-lates-price"><span className="fotter-lates-price">$109.99</span></li>
-                                         
-                                         </ul>
-                        </div>
+                                            <ul><li>BA (HONOURS) Social Work</li>
+                                                <li className="fotter-lates-time">  <span class="glyphicon glyphicon-time"></span><span className="fotter-lates-time">Starts in 10 Sept 2015</span></li>
+                                                <li className="fotter-lates-price"><span className="fotter-lates-price">$109.99</span></li>
+
+                                            </ul>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">
                                         <div className="course-thumb"></div>
                                         <div className="course-details">
-                                         <ul><li>BA (HONOURS) Computing IT</li>
-                                         <li className="fotter-lates-time">  <span class="glyphicon glyphicon-time"></span><span className="fotter-lates-time">Starts in 9 Sept 2014</span></li>
-                                         <li className="fotter-lates-price"><span className="fotter-lates-price">$134.99</span></li>
-                                         
-                                         </ul>
-                        </div>
+                                            <ul><li>BA (HONOURS) Computing IT</li>
+                                                <li className="fotter-lates-time">  <span class="glyphicon glyphicon-time"></span><span className="fotter-lates-time">Starts in 9 Sept 2014</span></li>
+                                                <li className="fotter-lates-price"><span className="fotter-lates-price">$134.99</span></li>
+
+                                            </ul>
+                                        </div>
                                     </a>
                                 </li>
 
-                          </ul>
+                            </ul>
 
                         </div>
                     </div>
                     <div className="footer-secound-col">
-                        <div className="footer-campus-galary"> <h3>Campus Gallery</h3> 
-                        <ul>
+                        <div className="footer-campus-galary"> <h3>Campus Gallery</h3>
+                            <ul>
 
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                            <div className="course-thumb"></div>
-                            </li>
-                            <li> 
-                           
-                            </li>
-                        </ul>
-                        
-                        
-                        
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+                                    <div className="course-thumb"></div>
+                                </li>
+                                <li>
+
+                                </li>
+                            </ul>
+
+
+
                         </div>
-                        <div className="footer-contact-details"><h3>Contact Details</h3> </div>
+                        <div className="footer-contact-details"><h3>Contact Details</h3>
+                            <div className="footer-contacts-holder">
+                                <p><i class="fa fa-map-marker" aria-hidden="true"></i>3147 libby street LA CA</p>
+                                <p><i class="fa fa-phone" aria-hidden="true"></i>(800)2345-6789</p>
+                                <p><i class="fa fa-envelope" aria-hidden="true"></i>contact@academic.com</p>
+                            </div>
+                            <div className="footer-contact-link">
+                            
+                            <a href="javascript:void(0)"><i class="fa fa-facebook-f" /></a>
+                            <a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
+                      
+                            <a href="javascript:void(0)"> <i class="fa fa-envelope" ></i></a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
+                <div className="footer-made"><span>&copy;</span>2019 Made With <span className="heart">	&#x2764;</span> By Ashraf Jebril</div>
             </div>
+       
         </div>
 
 

@@ -9,13 +9,13 @@ const Nav = () => {
           <div className="contacts-holder">
          <p><i class="fa fa-map-marker" aria-hidden="true"></i>3147 libby street LA CA</p>
          <p><i class="fa fa-phone" aria-hidden="true"></i>(800)2345-6789</p>
-         <p>contact@academic.com</p>
+         <p><i class="fa fa-envelope" aria-hidden="true"></i>contact@academic.com</p>
         </div>
           <div className="sm-holder">
             <a href="javascript:void(0)"><i class="fa fa-facebook-f"/></a>
             <a href="javascript:void(0)"><i class="fa fa-twitter"></i></a>
             <a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
-            <a href="javascript:void(0)">X</a>
+            <a href="javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
