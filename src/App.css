@@ -871,6 +871,7 @@ margin-top: 40px;
  background:rgba(238, 238, 238, 0.5);
  min-height: 20px;
  display: flex;
+ margin-bottom: 10px;
   
 }
 .experiantal-graph> ul > li > div > span.graph .red-graph  {
