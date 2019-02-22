@@ -83,8 +83,8 @@ const Home = () => {
 
                             <h4 className="side-col-title">Similar Courses</h4>
 
-                            <ul>
-                                <li>
+                            <ul class="row marginless">
+                                <li class="col-lg-12 col-sm-6 paddingless">
                                     <a href="javascript:void(0)">
                                         <div className="course-thumb"></div>
                                         <div className="course-details">
@@ -94,7 +94,7 @@ const Home = () => {
                                     </a>
                                 </li>
 
-                                <li>
+                                <li class="col-lg-12 col-sm-6 paddingless">
                                     <a href="javascript:void(0)">
                                         <div className="course-thumb"></div>
                                         <div className="course-details">
@@ -103,7 +103,7 @@ const Home = () => {
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col-lg-12 col-sm-6 paddingless">
                                     <a href="javascript:void(0)">
                                         <div className="course-thumb"></div>
                                         <div className="course-details">

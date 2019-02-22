@@ -1,0 +1,66 @@
+
+
+
+@media only screen and (max-width: 65em){
+
+    .mainlinks-holder .mainNav-holder > ul > li{
+      display:none;
+    }
+    .mainlinks-holder .mainNav-holder > ul > li.responsive-view-nav{
+      display: block!important;
+    }
+
+  }
+  @media only screen and (max-width: 61.5em){
+    .home-body-row{
+        padding:0px 0px 20px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 48em){
+      .contacts-holder{
+          flex-wrap: wrap;
+      }
+    .uppermenu-holder{
+        flex-wrap: wrap;
+    }
+    .uppermenu-holder .contacts-holder{
+        width:100%;
+        justify-content: center;
+        padding:10px 10px;
+    }
+    .uppermenu-holder .sm-holder{
+        width:100%;
+        justify-content: center;
+    }
+    .uppermenu-holder .sm-holder > a{
+        width:50px;
+    }
+    .slider-row > h1{
+        line-height:40px;
+        margin-bottom:30px;
+    }
+    .Professors-details{
+        flex-direction: column;
+    }
+    .professor-img{
+        width:100%;
+        min-height:250px;
+    }
+    .professor-links{
+        width:100%;
+        flex-direction: row;
+    }
+    .professor-links > a{
+        display: block;
+        padding:15px;
+    }
+    .professor-descreption{
+        width:100%;
+        text-align: center;
+    }
+    .card{
+        width:calc(100% - 20px);
+        margin:10px 10px;
+    }
+  }

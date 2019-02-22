@@ -176,11 +176,11 @@ const Professors = () => {
 
             <div className="students-comments-holder">
             <h3>Why Students Love's Us</h3>
-                <div className="student-comments">
+                <div className=" student-comments ">
                   
-                    <div className="student-comments-content">
+                    <div className="row student-comments-content marginless">
                    
-                        <div className="student-first-col"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span>the best thing
+                        <div className="col-lg-6 student-first-col paddingless"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span>the best thing
                         about the degree is having the freedom to think of an search idea and test predection. i feel extremly luck to
                          be in an enviroment that allows me to be smart
                          <div className="student-details">
@@ -197,7 +197,9 @@ const Professors = () => {
 
 
                         </div>
-                        <div className="student-first-col"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span>the best thing
+                        <div className="col-lg-6 student-first-col paddingless">
+                        
+                        <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>the best thing
                         about the degree is having the freedom to think of an search idea and test predection. i feel extremly luck to
                          be in an enviroment that allows me to be smart
                          <div className="student-details">
