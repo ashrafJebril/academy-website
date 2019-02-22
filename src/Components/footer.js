@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className="footer-search-button"><input type="text" placeholder="All Courses"></input><button><i class="fa fa-search" /></button></div>
                     </div></div>
                 </div>
-                <div className="row">  <div className="footer-about-us col-lg-3 col-sm-12"> <h3>About Us</h3>
+                <div className="row">  <div className="footer-about-us col-lg-3 col-sm-6"> <h3>About Us</h3>
                     <ul>
                         <li>
                             <div><span className="symbol">&#9654;</span>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </div></li>
                     </ul>
                 </div>
-                    <div className="footer-latest col-lg-3 "> <h3>Latest Courses</h3>
+                    <div className="footer-latest col-lg-3 col-sm-6 "> <h3>Latest Courses</h3>
                         <ul>
                             <li>
                                 <a href="javascript:void(0)">
@@ -78,7 +78,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className="footer-campus-galary col-lg-3"> <h3>Campus Gallery</h3>
+                    <div className="footer-campus-galary col-lg-3 col-sm-6"> <h3>Campus Gallery</h3>
                    
                         <ul>
                      
@@ -111,7 +111,7 @@ const Footer = () => {
 
 
                     </div>
-                    <div className="footer-contact-details col-lg-3 "><h3>Contact Details</h3>
+                    <div className="footer-contact-details col-lg-3 col-sm-6 "><h3>Contact Details</h3>
                             <div className="footer-contacts-holder">
                                 <p><i class="fa fa-map-marker" aria-hidden="true"></i>3147 libby street LA CA</p>
                                 <p><i class="fa fa-phone" aria-hidden="true"></i>(800)2345-6789</p>

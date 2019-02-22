@@ -14,6 +14,13 @@
   @media only screen and (max-width: 61.5em){
     .home-body-row{
         padding:0px 0px 20px 0px;
+        
+
+
+    }
+    .search-row >div{
+        display: flex ;
+        justify-content: center
     }
   }
 
@@ -62,5 +69,18 @@
     .card{
         width:calc(100% - 20px);
         margin:10px 10px;
+    }
+    .footer-content h3{
+        text-align: center;
+    }
+    .search-row >div{
+        display: flex ;
+        justify-content: center
+    }
+    .search-row div >input{
+       width: 100%;
+    }
+    .search-row div{
+        flex-wrap: nowrap;
     }
   }

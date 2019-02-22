@@ -712,15 +712,18 @@ align-items: center;
 }
 .footer-about-us{
 
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-bottom: 30px;
+
 
 }
 .footer-latest{
  
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   align-items: center;
 
@@ -823,8 +826,10 @@ color: #eb5a5f;
 }
 .footer-campus-galary {
   padding: 0 15px;
- 
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
  
   flex-direction: column;
 }
@@ -853,7 +858,16 @@ color: #eb5a5f;
 
 }
 .footer-contact-details{
-  width: 100%;
+ 
+  padding: 0 15px;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
   
 }
 .page-professors-content{

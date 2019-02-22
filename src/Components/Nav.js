@@ -38,12 +38,12 @@ render(){
 
       <div className="sidenav-mainlinks-holder">
         <ul>
-          <li><a href="javascript:void(0)">Home</a></li>
-          <li><a href="javascript:void(0)">Courses</a></li>
-          <li><a href="javascript:void(0)">Pages</a></li>
-          <li><a href="javascript:void(0)">Events</a></li>
-          <li><a href="javascript:void(0)">About us</a></li>
-          <li><a href="javascript:void(0)">Professors</a></li>
+        <li><Link to={{ pathname: "/" }}>Home</Link></li>
+            <li><Link to={{ pathname: "/" }}>Courses</Link></li>
+            <li><Link to={{ pathname: "/" }}>Pages</Link></li>
+            <li><Link to={{ pathname: "/" }}>Events</Link></li>
+            <li><Link to={{ pathname: "/" }}>About Us</Link></li>
+            <li><Link to={{ pathname: "/Professors" }}>Professors</Link></li>
         </ul>
       </div>
     </div>
